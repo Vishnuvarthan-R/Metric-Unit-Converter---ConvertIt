@@ -1,0 +1,58 @@
+.Convertor
+{
+    border: solid;
+    border-style:hidden;
+    border-radius: 650px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-color: rgb(145, 143, 143);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    background-color: rgb(21, 21, 20);
+    box-shadow: 0% 0% 10% 15% red;
+    animation: clr 4s infinite;
+    transition: box shadow 1s;
+}
+@keyframes clr {
+    10%  {box-shadow: 0 0 60px 55px rgb(155, 11, 11);}
+    20%  {box-shadow: 0 0 60px 55px rgb(239, 4, 177);}
+    30%  {box-shadow: 0 0 60px 55px rgba(140, 47, 129, 0.923);}
+    40%  {box-shadow: 0 0 60px 55px rgb(233, 223, 29);}
+    50%  {box-shadow: 0 0 60px 55px rgb(53, 55, 196);}
+    60%  {box-shadow: 0 0 60px 55px rgb(47, 208, 87);}
+    70%  {box-shadow: 0 0 60px 55px rgb(11, 138, 19);}
+    80%  {box-shadow: 0 0 60px 55px rgb(45, 205, 214);}
+    90%  {box-shadow: 0 0 60px 55px rgb(17, 131, 231);}
+    100%  {box-shadow: 0 0 60px 55px rgb(177, 228, 94);}
+}
+.btn
+{
+    color: green;
+    background-color: whitesmoke;
+}
+.btn:hover{
+    color: whitesmoke;
+    background-color: green;
+}
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+.res
+{
+    border: solid;
+    border-color: rgb(106, 106, 106);
+    border-width: 1.2px;
+    width: 180px;
+    height: 18px;
+    font-size:14px;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(33, 33, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
